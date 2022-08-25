@@ -1,0 +1,155 @@
+body {
+	font-family: Arial;
+	color:black;
+	font-size: 0.9em;
+}
+
+#shopping-cart {
+	margin: 40px;
+}
+
+#product-grid {
+	margin: 40px;
+}
+
+#shopping-cart table {
+	width: 100%;
+	background-color: #F0F0F0;
+}
+
+#shopping-cart table td {
+	background-color: #FFFFFF;
+}
+
+.txt-heading {
+	color: #035415;
+	border-bottom: 1px solid #ffc700;
+	overflow: auto;
+	font-size:20px;
+}
+
+#btnEmpty {
+	background-color: #035415;
+	border: #035415 1px solid;
+	padding: 5px 10px;
+	color: #ffc700;
+	float: right;
+	text-decoration: none;
+	border-radius: 3px;
+	margin: 10px 0px;
+}
+#btnEmpty:hover{
+	background-color: #035415;
+	box-shadow: 0 0 5px #ffc700, 0 0 25px #ffc700, 0 0 50px #ffc700, 0 0 200px #ffc700;
+}
+
+.btnAddAction {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #efefef;
+    border: #E0E0E0 1px solid;
+    color: #211a1a;
+    float: right;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#product-grid .txt-heading {
+	margin-bottom: 18px;
+}
+
+.product-item {
+	float: left;
+	background: #ffffff;
+	margin: 30px 30px 0px 0px;
+	border: #E0E0E0 1px solid;
+    height: 400px;
+    width: 300px;
+    border-radius: 3%;
+   /* background:linear-gradient(45deg, darkgreen, #ffc700); */
+   display:flex;
+   flex-direction:column;
+    font-weight: 900;
+    transition: 0.3s;
+	border-color:#035415;
+}
+
+
+.product-image {
+	background-color: #FFF;
+	height: 300px;
+	width:270px;
+	border-radius:5px; 
+	margin-bottom:15px;
+    transition: 1s;
+}
+
+.clear-float {
+	clear: both;
+}
+
+.demo-input-box {
+	border-radius: 2px;
+	border: #CCC 1px solid;
+	padding: 2px 1px;
+}
+
+.tbl-cart {
+	font-size: 0.9em;
+	background-color: #ffc700;
+}
+.tbl-cart> tbody> tr:nth-child(1){
+	font-size:20px;
+    border-top-left-radius: 5px;
+	border-top-right-radius:5px;
+	border-color: #035415;
+	padding:5px;
+
+}
+.tbl-cart> tbody{
+	height: 20px;
+}
+
+}
+.tbl-cart th {
+	font-weight: normal;
+}
+
+.product-title {
+	margin-bottom: 20px;
+}
+
+.product-price {
+	float:left;
+}
+
+.cart-action {
+	float: right;
+}
+
+.product-quantity {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: #E0E0E0 1px solid;
+}
+
+.product-tile-footer {
+    padding: 15px 15px 0px 15px;
+    overflow: auto;
+}
+
+.cart-item-image {
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: #E0E0E0 1px solid;
+    padding: 5px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.no-records {
+	text-align: center;
+	clear: both;
+	margin: 38px 0px;
+}
